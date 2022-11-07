@@ -421,12 +421,91 @@
 
 
   .real {
-    height: 2000px;
+    height: 1000px;
   }
 
   .real h2 {
     width: 420px;
     font-size: 32px;
+  }
+
+  .fit-1 {
+    position: absolute;
+    width: 573px;
+    height: 253px;
+    left: 97px;
+    top: 1400px;
+  }
+
+  .fit-1 p:nth-child(1) {
+    margin-left: -100px;
+    width: 600px;
+    text-align: center;
+  }
+
+  .fit-1 p:nth-child(2) {
+    margin-left: -200px;
+  }
+
+  .fit-1 p:nth-child(3) {
+    margin-left: -200px;
+  }
+
+  .fit-1 img {
+    margin-left: 150px;
+  }
+
+  .fit-2 {
+    position: absolute;
+    width: 573px;
+    height: 253px;
+    left: 97px;
+    top: 1655px;
+  }
+
+  .fit-2 p:nth-child(1) {
+    margin-left: -100px;
+    width: 600px;
+    text-align: center;
+  }
+
+  .fit-2 p:nth-child(2) {
+    margin-left: -200px;
+  }
+
+  .fit-2 p:nth-child(3) {
+    margin-left: -200px;
+  }
+
+  .fit-2 img {
+    margin-left: 150px;
+  }
+
+  .fit-3 {
+    position: absolute;
+    width: 573px;
+    height: 253px;
+    left: 97px;
+    top: 1906px;
+
+  }
+
+  .fit-3 p:nth-child(1) {
+    margin-left: -100px;
+    width: 600px;
+    text-align: center;
+  }
+
+  .fit-3 p:nth-child(2) {
+    margin-left: -200px;
+  }
+
+  .fit-3 p:nth-child(3) {
+    margin-left: -200px;
+  }
+
+  .fit-3 img {
+    margin-left: 150px;
   }
 
 
