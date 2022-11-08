@@ -346,7 +346,11 @@
 
 
 
-
+.menu {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
 
 
 /* Responsive */
@@ -549,6 +553,62 @@
     position: absolute;
     left: 470px;
     margin-top: -20px;
+  }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .menu {
+    position: absolute;
+    display: block;
+    left: 300px;
+    top: 40px;
+  }
+
+  .menu-a {
+    display: none;
+  }
+
+  .myteam-div-two-div-one h2 {
+    position: absolute;
+    left: 0px;
+    font-size: 40px;
+    line-height: 1;
+    width: 200px;
+  }
+
+
+  .myteam-div-two-div-two hr {
+    display: none;
+  }
+
+  .myteam-div-two-div-two p {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    width: 300px;
+
+
+  }
+
+
+  .build-div-one hr {
+    display: none;
+  }
+
+  .build-div-one h2 {
+    position: absolute;
+    top: 550px;
+    left: -70px;
+    width: 200px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
 }
