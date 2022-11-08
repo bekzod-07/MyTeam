@@ -1,0 +1,150 @@
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 72rem;
+}
+
+.top {
+  background: #014E56;
+}
+
+.myteam {
+  height: 500px;
+  padding-top: 20px;
+}
+
+.myteam-div-one {
+  display: flex;
+}
+
+.myteam-div-one ul {
+  font-size: 20px;
+  margin-left: 50px;
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+}
+
+.myteam-div-one a:active {
+  color: #F67E7E;
+}
+
+.myteam-div-one a {
+  text-decoration: none;
+  color: white;
+}
+
+.myteam-div-one a:nth-child(2),
+.myteam-div-one a:nth-child(3) {
+  opacity: 0.5;
+}
+
+.myteam-div-one button {
+  width: 200px;
+  height: 40px;
+  background: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  color: #FFFFFF;
+  margin-left: 400px;
+}
+
+.myteam-div-one button:active {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  color: #000;
+}
+
+.myteam-div-two {
+  margin-top: 50px;
+  margin-left: 90px;
+  display: flex;
+}
+
+.myteam-div-two-div-one h2 {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 100px;
+  width: 350px;
+  color: #FFFFFF;
+}
+
+.myteam-div-two-div-two {
+  margin-left: 200px;
+}
+
+.myteam-div-two-div-two hr {
+  margin-top: 100px;
+  margin-left: -200px;
+  width: 50px;
+  background: #79C8C7;
+}
+
+.myteam-div-two-div-two p {
+  width: 550px;
+  font-size: 18px;
+  margin-left: -200px;
+  color: #FFFFFF;
+}
+
+
+.directors {
+  margin-top: -30px;
+  background: #004047;
+  height: 600px;
+}
+
+.meet h2 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+
+.meet-2 {
+  display: flex;
+  gap: 50px;
+}
+
+.nikita {
+  background: #012F34;
+  width: 300px;
+  height: 220px;
+}
+
+.nikita img {
+  margin-left: 100px;
+}
+
+.nikita p:nth-child(2) {
+  text-align: center;
+  color: #79C8C7;
+}
+
+.nikita p:nth-child(3) {
+  text-align: center;
+  color: white;
+}
+
+.yumoloq {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #F67E7E;
+  margin-left: 120px;
+}
+
+.yumoloq h2 {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.meet-3 {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
