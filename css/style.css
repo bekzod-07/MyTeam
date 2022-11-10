@@ -623,13 +623,13 @@
   .build-div-two-one h3 {
     position: absolute;
     top: 40px;
-    left: -80px;
+    left: -100px;
   }
 
   .build-div-two-one p {
     position: absolute;
     top: 70px;
-    left: -140px;
+    left: -155px;
     width: 300px;
     text-align: center;
   }
